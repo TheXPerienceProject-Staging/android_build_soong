@@ -21,7 +21,6 @@ import (
 	"path/filepath"
 	"sync"
 	"text/template"
-	"time"
 
 	"android/soong/elf"
 	"android/soong/ui/metrics"

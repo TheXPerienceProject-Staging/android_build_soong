@@ -35,7 +35,8 @@ var androidmk_denylist []string = []string{
 	"kernel/tests/",
 	"libcore/",
 	"libnativehelper/",
-	"packages/",
+	// Add back packages once defensive Android.mk files are removed
+	//"packages/",
 	"pdk/",
 	"prebuilts/",
 	"sdk/",
